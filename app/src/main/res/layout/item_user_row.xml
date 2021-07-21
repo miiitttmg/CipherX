@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@drawable/border_shape_item"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/_10sdp"
+            android:id="@+id/user_image"
+            android:background="@null"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_marginLeft="-25dp"
+            android:layout_marginTop="@dimen/_40sdp"
+            app:civ_border_width="@dimen/_10sdp"
+            app:civ_border_color="#05df29"
+            android:visibility="gone"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img_online"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_marginLeft="-25dp"
+            android:layout_marginTop="@dimen/_40sdp"
+            app:civ_border_width="@dimen/_10sdp"
+            app:civ_border_color="#919392"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/img_offline"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                android:text="Name"
+                android:fontFamily="@font/spartanbold"/>
+
+            <TextView
+                android:id="@+id/user_status"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Status"
+                android:fontFamily="@font/spartanregular"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

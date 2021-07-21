@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "879376563943",
+    "project_id": "cipherx-chatapp",
+    "storage_bucket": "cipherx-chatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879376563943:android:a493830381500d1afc6c42",
+        "android_client_info": {
+          "package_name": "com.example.cipherxchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879376563943-i43k85j4g0ktsa7iol1huq8t5cnqk9n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBimk_U_nn0dBzlBUTLqMxr-UFJ7Kvg1Pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879376563943-i43k85j4g0ktsa7iol1huq8t5cnqk9n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
